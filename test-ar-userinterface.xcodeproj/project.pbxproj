@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641223D627645825003455A8 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 641223D527645825003455A8 /* FocusEntity */; };
+		641223D827645871003455A8 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641223D727645871003455A8 /* CustomARView.swift */; };
 		646476982762EFEC00890F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476972762EFEC00890F37 /* AppDelegate.swift */; };
 		6464769A2762EFEC00890F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476992762EFEC00890F37 /* ContentView.swift */; };
 		6464769C2762EFEC00890F37 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6464769B2762EFEC00890F37 /* Experience.rcproject */; };
@@ -15,6 +17,29 @@
 		646476AB2762EFEF00890F37 /* test_ar_userinterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476AA2762EFEF00890F37 /* test_ar_userinterfaceTests.swift */; };
 		646476B52762EFEF00890F37 /* test_ar_userinterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476B42762EFEF00890F37 /* test_ar_userinterfaceUITests.swift */; };
 		646476B72762EFEF00890F37 /* test_ar_userinterfaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476B62762EFEF00890F37 /* test_ar_userinterfaceUITestsLaunchTests.swift */; };
+		646476C42762F0AE00890F37 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476C32762F0AE00890F37 /* ControlView.swift */; };
+		646476C62762FB5900890F37 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476C52762FB5900890F37 /* BrowseView.swift */; };
+		646476C82763010200890F37 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476C72763010200890F37 /* Model.swift */; };
+		646476E3276315A600890F37 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476E2276315A600890F37 /* PlacementSettings.swift */; };
+		646476E52763176000890F37 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646476E42763176000890F37 /* PlacementView.swift */; };
+		64FB8ED727646B2A000C2833 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8EC827646B29000C2833 /* toy_biplane.usdz */; };
+		64FB8ED827646B2A000C2833 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8EC927646B29000C2833 /* flower_tulip.usdz */; };
+		64FB8ED927646B2A000C2833 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ECA27646B2A000C2833 /* toy_drummer.usdz */; };
+		64FB8EDA27646B2A000C2833 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ECB27646B2A000C2833 /* toy_robot_vintage.usdz */; };
+		64FB8EDB27646B2A000C2833 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ECC27646B2A000C2833 /* wateringcan.usdz */; };
+		64FB8EDC27646B2A000C2833 /* Chook.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ECD27646B2A000C2833 /* Chook.usdz */; };
+		64FB8EDD27646B2A000C2833 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ECE27646B2A000C2833 /* toy_car.usdz */; };
+		64FB8EDE27646B2A000C2833 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ECF27646B2A000C2833 /* teapot.usdz */; };
+		64FB8EDF27646B2A000C2833 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ED027646B2A000C2833 /* fender_stratocaster.usdz */; };
+		64FB8EE027646B2A000C2833 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ED127646B2A000C2833 /* gramophone.usdz */; };
+		64FB8EE127646B2A000C2833 /* 1975_Porsche_911_930_Turbo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ED227646B2A000C2833 /* 1975_Porsche_911_930_Turbo.usdz */; };
+		64FB8EE227646B2A000C2833 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ED327646B2A000C2833 /* cup_saucer_set.usdz */; };
+		64FB8EE327646B2A000C2833 /* 1972_Datsun_240k_GT.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ED427646B2A000C2833 /* 1972_Datsun_240k_GT.usdz */; };
+		64FB8EE427646B2A000C2833 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ED527646B2A000C2833 /* tv_retro.usdz */; };
+		64FB8EE527646B2A000C2833 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8ED627646B2A000C2833 /* chair_swan.usdz */; };
+		64FB8EE7276470E3000C2833 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8EE6276470E3000C2833 /* View+Extensions.swift */; };
+		64FB8EE927647806000C2833 /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8EE827647806000C2833 /* SessionSettings.swift */; };
+		64FB8EEB276478A5000C2833 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8EEA276478A5000C2833 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		641223D727645871003455A8 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		646476942762EFEC00890F37 /* test-ar-userinterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ar-userinterface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646476972762EFEC00890F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		646476992762EFEC00890F37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +72,29 @@
 		646476B02762EFEF00890F37 /* test-ar-userinterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ar-userinterfaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646476B42762EFEF00890F37 /* test_ar_userinterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ar_userinterfaceUITests.swift; sourceTree = "<group>"; };
 		646476B62762EFEF00890F37 /* test_ar_userinterfaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ar_userinterfaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		646476C32762F0AE00890F37 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		646476C52762FB5900890F37 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		646476C72763010200890F37 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		646476E2276315A600890F37 /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		646476E42763176000890F37 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		64FB8EC827646B29000C2833 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		64FB8EC927646B29000C2833 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		64FB8ECA27646B2A000C2833 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		64FB8ECB27646B2A000C2833 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		64FB8ECC27646B2A000C2833 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		64FB8ECD27646B2A000C2833 /* Chook.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chook.usdz; sourceTree = "<group>"; };
+		64FB8ECE27646B2A000C2833 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		64FB8ECF27646B2A000C2833 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		64FB8ED027646B2A000C2833 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		64FB8ED127646B2A000C2833 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		64FB8ED227646B2A000C2833 /* 1975_Porsche_911_930_Turbo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1975_Porsche_911_930_Turbo.usdz; sourceTree = "<group>"; };
+		64FB8ED327646B2A000C2833 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		64FB8ED427646B2A000C2833 /* 1972_Datsun_240k_GT.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1972_Datsun_240k_GT.usdz; sourceTree = "<group>"; };
+		64FB8ED527646B2A000C2833 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		64FB8ED627646B2A000C2833 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		64FB8EE6276470E3000C2833 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		64FB8EE827647806000C2833 /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		64FB8EEA276478A5000C2833 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641223D627645825003455A8 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +148,18 @@
 			children = (
 				646476972762EFEC00890F37 /* AppDelegate.swift */,
 				646476992762EFEC00890F37 /* ContentView.swift */,
+				641223D727645871003455A8 /* CustomARView.swift */,
+				646476C32762F0AE00890F37 /* ControlView.swift */,
+				646476C52762FB5900890F37 /* BrowseView.swift */,
+				646476E42763176000890F37 /* PlacementView.swift */,
+				64FB8EEA276478A5000C2833 /* SettingsView.swift */,
+				646476E2276315A600890F37 /* PlacementSettings.swift */,
+				64FB8EE827647806000C2833 /* SessionSettings.swift */,
+				646476C72763010200890F37 /* Model.swift */,
+				64FB8EE6276470E3000C2833 /* View+Extensions.swift */,
 				6464769B2762EFEC00890F37 /* Experience.rcproject */,
 				6464769D2762EFEE00890F37 /* Assets.xcassets */,
+				646476C927630F9F00890F37 /* 3D Assets */,
 				6464769F2762EFEE00890F37 /* Preview Content */,
 			);
 			path = "test-ar-userinterface";
@@ -130,6 +190,28 @@
 			path = "test-ar-userinterfaceUITests";
 			sourceTree = "<group>";
 		};
+		646476C927630F9F00890F37 /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8ED427646B2A000C2833 /* 1972_Datsun_240k_GT.usdz */,
+				64FB8ED227646B2A000C2833 /* 1975_Porsche_911_930_Turbo.usdz */,
+				64FB8ED627646B2A000C2833 /* chair_swan.usdz */,
+				64FB8ECD27646B2A000C2833 /* Chook.usdz */,
+				64FB8ED327646B2A000C2833 /* cup_saucer_set.usdz */,
+				64FB8ED027646B2A000C2833 /* fender_stratocaster.usdz */,
+				64FB8EC927646B29000C2833 /* flower_tulip.usdz */,
+				64FB8ED127646B2A000C2833 /* gramophone.usdz */,
+				64FB8ECF27646B2A000C2833 /* teapot.usdz */,
+				64FB8EC827646B29000C2833 /* toy_biplane.usdz */,
+				64FB8ECE27646B2A000C2833 /* toy_car.usdz */,
+				64FB8ECA27646B2A000C2833 /* toy_drummer.usdz */,
+				64FB8ECB27646B2A000C2833 /* toy_robot_vintage.usdz */,
+				64FB8ED527646B2A000C2833 /* tv_retro.usdz */,
+				64FB8ECC27646B2A000C2833 /* wateringcan.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +228,9 @@
 			dependencies = (
 			);
 			name = "test-ar-userinterface";
+			packageProductDependencies = (
+				641223D527645825003455A8 /* FocusEntity */,
+			);
 			productName = "test-ar-userinterface";
 			productReference = 646476942762EFEC00890F37 /* test-ar-userinterface.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 6464768B2762EFEC00890F37;
+			packageReferences = (
+				641223D427645825003455A8 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 646476952762EFEC00890F37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +322,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FB8EE127646B2A000C2833 /* 1975_Porsche_911_930_Turbo.usdz in Resources */,
+				64FB8EE327646B2A000C2833 /* 1972_Datsun_240k_GT.usdz in Resources */,
+				64FB8EDF27646B2A000C2833 /* fender_stratocaster.usdz in Resources */,
+				64FB8ED927646B2A000C2833 /* toy_drummer.usdz in Resources */,
+				64FB8ED727646B2A000C2833 /* toy_biplane.usdz in Resources */,
+				64FB8EDC27646B2A000C2833 /* Chook.usdz in Resources */,
+				64FB8EE427646B2A000C2833 /* tv_retro.usdz in Resources */,
+				64FB8EDA27646B2A000C2833 /* toy_robot_vintage.usdz in Resources */,
+				64FB8EDE27646B2A000C2833 /* teapot.usdz in Resources */,
+				64FB8ED827646B2A000C2833 /* flower_tulip.usdz in Resources */,
+				64FB8EE227646B2A000C2833 /* cup_saucer_set.usdz in Resources */,
+				64FB8EE027646B2A000C2833 /* gramophone.usdz in Resources */,
+				64FB8EDD27646B2A000C2833 /* toy_car.usdz in Resources */,
+				64FB8EDB27646B2A000C2833 /* wateringcan.usdz in Resources */,
 				646476A12762EFEE00890F37 /* Preview Assets.xcassets in Resources */,
+				64FB8EE527646B2A000C2833 /* chair_swan.usdz in Resources */,
 				6464769E2762EFEE00890F37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +363,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646476C42762F0AE00890F37 /* ControlView.swift in Sources */,
+				646476E3276315A600890F37 /* PlacementSettings.swift in Sources */,
+				64FB8EE927647806000C2833 /* SessionSettings.swift in Sources */,
+				646476E52763176000890F37 /* PlacementView.swift in Sources */,
 				6464769A2762EFEC00890F37 /* ContentView.swift in Sources */,
+				641223D827645871003455A8 /* CustomARView.swift in Sources */,
+				646476C62762FB5900890F37 /* BrowseView.swift in Sources */,
+				646476C82763010200890F37 /* Model.swift in Sources */,
 				646476982762EFEC00890F37 /* AppDelegate.swift in Sources */,
+				64FB8EEB276478A5000C2833 /* SettingsView.swift in Sources */,
+				64FB8EE7276470E3000C2833 /* View+Extensions.swift in Sources */,
 				6464769C2762EFEC00890F37 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +725,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		641223D427645825003455A8 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		641223D527645825003455A8 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 641223D427645825003455A8 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6464768C2762EFEC00890F37 /* Project object */;
 }
