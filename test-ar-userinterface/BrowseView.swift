@@ -54,14 +54,14 @@ struct RecentsGrid: View {
 }
 
 struct ModelsByCategoryGrid : View {
+    @EnvironmentObject var viewModel: ModelsViewModel
     @Binding var showBrowse: Bool
-    let models: Models = Models()
-    
+
     var body: some View {
         VStack {
             ForEach(ModelCategory.allCases, id: \.self) { category in
                 // Only display grid if category contains items
-                if let modelsByCategory = models.get(category: category) {
+                if let modelsByCategory = self.viewModel.models.filter( { $0.category == category }) {
                     HorizontalGrid(showBrowse: $showBrowse, title: category.label, items: modelsByCategory)
                 }
             }
@@ -87,11 +87,15 @@ struct HorizontalGrid: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHGrid(rows: gridItemLayout, spacing: 30) {
-                    ForEach(0..<self.items.count) { index in
+                    ForEach(0..<self.items.count, id: \.self) { index in
                         let model = items[index]
                         
                         ItemButton(model: model) {
-                            model.asyncLoadModelEntity()
+                            model.asyncLoadModelEntity { completed, error in
+                                if completed {
+                                    self.placementSettings.selectedModel = model
+                                }
+                            }
                             self.placementSettings.selectedModel = model
                             print("BrowseView: selected \(model.name) for placement.")
                             self.showBrowse = false
@@ -106,7 +110,7 @@ struct HorizontalGrid: View {
 }
 
 struct ItemButton: View {
-    let model: Model
+    @ObservedObject var model: Model
     let action: () -> Void
     
     var body : some View {
